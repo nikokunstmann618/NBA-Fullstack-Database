@@ -120,7 +120,7 @@ If I were to continue to expand on this, and have it accessible to millions of u
 
 ## Database Schema
 
-See `schema/schema-diagram.png` for the Entity-Relationship Diagram showing all tables, columns, and relationships.
+See `schema/NBA Dataset Schema.png` for the Entity-Relationship Diagram showing all tables, columns, and relationships.
 
 The schema has four main tables:
 - **teams**: Core team information (30 NBA franchises)

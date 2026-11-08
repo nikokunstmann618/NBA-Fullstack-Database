@@ -63,16 +63,16 @@ Load data in this specific order
 
 ```bash
 # 1. Load teams
-python loaders/load_teams.py | psql $env:DB_URL
+python loaders/load_team.py | psql $env:DB_URL
 
 # 2. Load players
-python loaders/load_players.py | psql $env: DB_URL
+python loaders/load_players.py | psql $env:DB_URL
 
 # 3. Load games
 python loaders/load_games.py | psql $env:DB_URL
 
 # 4. Load game details
-python loaders/load_games_details.py | psql $env: DB_URL
+python loaders/load_games_details.py | psql $env:DB_URL
 ```
 
 **Expected Results:**
